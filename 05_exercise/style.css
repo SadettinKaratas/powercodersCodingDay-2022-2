@@ -1,0 +1,14 @@
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+#bookContainer{
+    border: 1px dotted black;
+    margin: 5px;
+    width: 60%;
+}

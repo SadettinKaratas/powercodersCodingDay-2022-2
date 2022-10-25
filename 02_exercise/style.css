@@ -4,6 +4,8 @@ h1 {
 }
 
 .robots {
+
+
 }
 
 .head, 
@@ -13,6 +15,14 @@ h1 {
 .left_leg, 
 .right_leg {
 	 background-color: #5f93e8;
+}
+
+.android{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .head { 
@@ -54,6 +64,7 @@ h1 {
 } 
 
 .lower_body { 
+	display: flex;
 	width: 200px; 
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
@@ -100,9 +111,11 @@ h1 {
 
 .right_eye { 
 	position: relative; 
-	top: 100px; 
+	top: 80px; 
 	left: 120px; 
+	/* background-color: blue; */
 }
+
 
 
 
